@@ -35,15 +35,23 @@ Split and Merge RGB Image
 ### Step10:
 Split and merge HSV Image
 
-### Developed By: Balachandran S
-### Register Number: 212222100008
-##### Program:
-
-## Output:
+## Program:
+```
+ Developed By: Balachandran S
+ Register Number: 212222100008
+```
 
 ### i) Read and display the image
-
+```
+    import cv2
+    image=cv2.imread('NEW ONE.jpg',1)
+    image=cv2.resize(image,(400,300))
+    cv2.imshow('display',image)
+    cv2.waitKey(0)
+    cv2.destroyAllWindows()
+```
 <br>
+![NEWONE](https://github.com/Balachandran143/COLOR_CONVERSIONS_OF-IMAGE/assets/118886489/1d031ae7-8812-4e4b-ade9-8cc78050544c)
 <br>
 
 ### ii)Write the image
